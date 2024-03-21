@@ -10,6 +10,6 @@ BEGIN
         RETURNS 0;
     END IF;
     
-    RETURNS a / b
+    RETURNS a / b;
 END //
 DELIMITER ;
