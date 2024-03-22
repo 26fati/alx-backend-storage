@@ -7,9 +7,9 @@ DELIMITER //
 CREATE FUNCTION SafeDiv(a INT, b INT) RETURNS FLOAT DETERMINISTIC
 BEGIN
     IF b = 0 THEN
-        RETURNS 0;
+        RETURN 0;
     END IF;
     
-    RETURNS a / b;
+    RETURN a / b;
 END //
 DELIMITER ;
